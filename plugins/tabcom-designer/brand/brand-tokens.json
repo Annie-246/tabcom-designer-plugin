@@ -1,0 +1,60 @@
+{
+  "brand": "Tabcom",
+  "source": "Tabcom official designs (49 designs, measured 2026-11-02)",
+  "canvas": { "width": 1080, "height": 1080, "safeTop": 84, "safeBottom": 996, "sideMargin": 48 },
+  "logo": {
+    "file": "../assets/logos/tabcom-white-green-transparent.png",
+    "wordmarkColor": "#FFFFFF",
+    "markGradient": ["#07EDAD", "#75DAD1"],
+    "placement": { "x": 464, "y": 15, "width": 171, "height": 37, "align": "center" }
+  },
+  "logoTab": {
+    "shape": "inverted trapezoid, top edge flush with canvas, rounded bottom corners",
+    "gradient": { "direction": "to right", "stops": ["#005FB2", "#00A7A1"] },
+    "x": 296, "width": 501, "height": 72
+  },
+  "footer": {
+    "centerY": 1020,
+    "font": { "family": "Inter", "weight": 700, "size": 34 },
+    "left": { "icon": "phone", "text": "0786.668.222", "textStartX": 96 },
+    "right": { "icon": "globe", "text": "tabcomgroup.vn", "textEndX": 1036 },
+    "variants": {
+      "dark": { "text": "#FFFFFF", "iconBg": "#00C39C", "iconGlyph": "#FFFFFF", "iconDiameter": 39, "band": "#003AB0" },
+      "light": { "text": "brandGradient", "iconStyle": "outline", "iconColor": "#001F54" }
+    }
+  },
+  "colors": {
+    "brandGradient": { "direction": "to right", "stops": ["#0048B6", "#0082A8", "#00BE9D"] },
+    "highlightBarGradient": { "direction": "to right", "stops": ["#0058B2", "#00BE9C"] },
+    "headingBlue": "#1173C8",
+    "royal": "#003AB0",
+    "deep": "#03368C",
+    "navy": "#05173D",
+    "sky": "#2194FC",
+    "paper": "#FCFDFF",
+    "ice": "#E7F1FE",
+    "mist": "#D0E5FE",
+    "accentOrange": "#F27335",
+    "accentRedOrange": "#E45A2A",
+    "accentShopeeRed": "#E94723",
+    "iconGreen": "#00C39C",
+    "growthGreen": "#5CE244",
+    "textBody": "#1E1E1E",
+    "textNavy": "#001F54",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "headline": { "family": "Inter", "weight": 900, "sizeRange": [57, 88], "case": "upper", "fallback": ["Montserrat ExtraBold", "Mulish Black"] },
+    "highlightBar": { "family": "Inter", "weight": 800, "sizeRange": [33, 47], "case": "upper", "color": "#FFFFFF" },
+    "pillSubtitle": { "family": "Asap", "style": "italic", "sizeRange": [26, 30], "color": "#1E1E1E", "fallback": ["Mulish Italic"] },
+    "data": { "family": "Inter", "weight": 700, "sizeRange": [18, 24] },
+    "localFonts": ["../assets/fonts/inter/", "../assets/fonts/mulish/"]
+  },
+  "backgroundFamilies": ["light-3d", "light-studio", "royal-blue-grid", "navy-photo"],
+  "rules": [
+    "Logo tab and footer appear on every design",
+    "Brand gradient always runs blue to teal, left to right",
+    "Orange/red only for keyword or number emphasis, never as background",
+    "Headlines uppercase bold sans-serif, max 3 heading tiers"
+  ]
+}

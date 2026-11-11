@@ -1,0 +1,39 @@
+{
+  "title": "BRIEF – Bạn thảnh thơi (v7)",
+  "canvas": [1080, 1080],
+  "margin": 80,
+  "guides": [
+    {"axis": "y", "at": 410, "from": 80, "to": 1000, "label": "vùng đầu 38% / nội dung 62%"},
+    {"axis": "x", "at": 450, "from": 410, "to": 1000, "label": "cột chữ 38%"},
+    {"axis": "x", "at": 80, "from": 80, "to": 1000}
+  ],
+  "elements": [
+    {"type": "box", "x": 80, "y": 80, "w": 200, "h": 46, "label": "LOGO navy", "size": 20, "note": "nhỏ, ≤ 220px"},
+    {"type": "text", "x": 80, "y": 160, "lines": ["Bạn thảnh thơi,", "đơn vẫn về đều."], "size": 80, "bold": true, "leading": 1.15, "num": 1},
+    {"type": "box", "x": 770, "y": 170, "w": 230, "h": 170, "label": "để trống", "size": 22, "dash": true},
+    {"type": "text", "x": 80, "y": 460, "lines": ["Tabcom vận hành trọn gói", "gian hàng Shopee và", "TikTok Shop cho bạn."], "size": 28, "num": 3},
+    {"type": "pill", "x": 80, "y": 630, "w": 380, "h": 70, "label": "Nhận tư vấn miễn phí →", "size": 26, "num": 4},
+    {"type": "text", "x": 80, "y": 930, "lines": ["ĐT  0786.668.222", "Web tabcomgroup.vn"], "size": 24, "num": 5},
+    {"type": "card", "x": 640, "y": 420, "w": 360, "h": 120, "lines": ["Doanh thu hôm nay", "₫205.984.000  ▲ 32,5%"], "size": 22, "num": 2},
+    {"type": "card", "x": 500, "y": 620, "w": 220, "h": 80, "lines": ["[S] [TikTok]", "+128 đơn mới"], "size": 20},
+    {"type": "person", "x": 560, "y": 560, "w": 430, "h": 430, "label": "người Việt, polo xanh, cà phê sữa đá, nhỏ trong khung"},
+    {"type": "arrow", "points": [[700, 640], [760, 590], [800, 545]], "label": "xếp chéo đi lên"}
+  ],
+  "notes": [
+    "THÔNG ĐIỆP: chủ shop thảnh thơi,",
+    "  đơn vẫn tăng đều.",
+    "",
+    "THỨ TỰ ĐỌC: (1) tiêu đề → (2) doanh thu",
+    "  → người → (4) nút → (5) liên hệ",
+    "",
+    "MÀU: navy #0B1F4F · royal #0048B6",
+    "  teal đậm #007F73 · nền #F5F8FF",
+    "  cam/đen chỉ trong icon nhỏ",
+    "",
+    "FONT: Inter · chữ nhỏ nhất ≥ 24px",
+    "",
+    "LUẬT: 1 mép trái · lề 80px đều",
+    "  ≤ 2 thẻ nổi · không đạo cụ thừa",
+    "  vùng cạnh tiêu đề để trống"
+  ]
+}

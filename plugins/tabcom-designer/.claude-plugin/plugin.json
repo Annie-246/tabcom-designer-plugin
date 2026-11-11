@@ -1,0 +1,10 @@
+{
+  "name": "tabcom-designer",
+  "displayName": "Tabcom Designer",
+  "description": "Agent designer ảnh social Tabcom (dịch vụ vận hành gian hàng Shopee/TikTok Shop): bám mẫu Pinterest có phân tích 8 khía cạnh, hoặc động não ý tưởng trước; Codex render 1 lần rồi soát bằng số đo.",
+  "author": { "name": "Nhật Dương", "url": "https://github.com/Annie-246" },
+  "homepage": "https://github.com/Annie-246/tabcom-designer-plugin",
+  "repository": "https://github.com/Annie-246/tabcom-designer-plugin",
+  "license": "MIT",
+  "keywords": ["design", "social-media", "shopee", "tiktok-shop", "codex", "vietnamese"]
+}
